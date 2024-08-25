@@ -42,7 +42,7 @@
 }
 .navbar {
     display: flex;
-    /* padding: 8px 10px; */
+    padding: 8px 10px;
     width: 100%;
     align-items: center;
 }
@@ -54,6 +54,7 @@
     font-family: sans-serif;
     padding-left: 21rem;
     padding-right: 5rem;
+    cursor: pointer;
 }
 
 .navbar svg {
@@ -87,7 +88,7 @@
 }
 
 .card{
-    height: 27rem;
+    height: 26rem;
     width: 20rem;
     border: 1px solid transparent;
     position: relative;
@@ -104,8 +105,9 @@
     display: flex;
     width: 100%;
     flex-wrap: wrap;
-    gap: 10px;
+    gap: 32px;
     justify-content: center;
+
 }
 
 .img-section img {
@@ -174,7 +176,9 @@ h3 {
     padding-top: 10px;
 }
 
-/* .img-section i{
+
+i.fa-regular.fa-heart {
     position: absolute;
-    color: #fff;
-} */
+    right: 12px;
+    top: 20px;
+}
