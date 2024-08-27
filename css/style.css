@@ -88,7 +88,7 @@
 }
 
 .card{
-    height: 26rem;
+    height: 27rem;
     width: 20rem;
     border: 1px solid transparent;
     position: relative;
@@ -97,8 +97,6 @@
 .card:hover{
     border: 1px solid black;
     background: color var(--primary-color);
-
-
 }
 
 .card-container {
@@ -182,3 +180,21 @@ i.fa-regular.fa-heart {
     right: 12px;
     top: 20px;
 }
+
+.card h5 {
+    font-size: 14px;
+    font-family: sans-serif;
+    font-weight: 100;
+    width: 34px;
+    border: 1px solid white;
+    position: relative;
+    bottom: 22px;
+    background: white;
+    margin-left: 6px;
+    transition: bottom 0.4s ease;
+}
+
+.card h5:hover{
+    bottom: 30px
+}
+
